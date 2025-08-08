@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>JokenPô!</title>
+</head>
+
+<body>
+
+    <img src="./assets/logo.png" alt="logo">
+
+    <div class="container">
+
+        <div class="button">
+            <button id="pedra" onclick="playHuman('pedra')">👊</button>
+            <button id="papel" onclick="playHuman('papel')">✋</button>
+            <button id="tesoura" onclick="playHuman('tesoura')">✌️</button>
+        </div>
+
+        <p class="result"></p>
+
+        <div class="score-container">
+            <p>Você<br><span class="your-score">0</span></p>
+            <p class="vs-text">VS</p>
+            <p>Máquina<br><span class="computer-score">0</span></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(./assets/fundo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+img {
+    max-width: 20%;
+}
+
+
+.container {
+
+    padding: 10px 30px 30px 30px;
+    background-color: #FFF8E7;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+button {
+    padding: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+    opacity: 0.6;
+    transform: scale(1.1)
+}
+
+.button {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+}
+
+#pedra {
+    background-color: #a200ff;
+}
+
+#papel {
+    background-color: #9ee01a;
+}
+
+#tesoura {
+    background-color: #7bdeed;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #29557A;
+}
+
+.result {
+    margin: 15px 0;
+    font-size: 30px;
+    min-height: 30px;
+}
+
+.score-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.score-container span {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.vs-text {
+    font-size: 30px;
+    color: #555;
+}
+
+.your-score {
+    color: #4F91B3;
+}
+
+.computer-score, .your-score {
+    display: inline-block; 
+}
+
+.computer-score {
+    color: #E15B3B;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding-top: 60px;
+        gap: 20px;
+    }
+
+    img {
+        max-width: 60%;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .score-container {
+        gap: 20px;
+    }
+
+    .score-container span {
+        font-size: 35px;
+    }
+}
+
+@keyframes score-update-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+}
+
+.animate-score {
+    animation: score-update-animation 0.3s ease-in-out;
+}
