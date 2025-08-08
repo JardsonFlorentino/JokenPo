@@ -24,24 +24,28 @@
             <button id="tesoura" onclick="playHuman('tesoura')">✌️</button>
         </div>
 
-        <div class="choices">
-            <div class="choice-player">
-                <p>Você</p>
+        <div class="game-board">
+            <div class="player-side">
+                <p class="player-name">Você</p>
                 <p id="human-choice-emoji" class="choice-emoji"></p>
+                <p class="score">Placar: <span class="your-score">0</span></p>
             </div>
+
             <p class="vs-text-big">VS</p>
-            <div class="choice-computer">
-                <p>Máquina</p>
+
+            <div class="computer-side">
+                <p class="player-name">Máquina</p>
                 <p id="computer-choice-emoji" class="choice-emoji"></p>
+                <p class="score">Placar: <span class="computer-score">0</span></p>
             </div>
         </div>
 
         <p class="result"></p>
+    </div>
 
-        <div class="score-container">
-            <p>Seu Placar<br><span class="your-score">0</span></p>
-            <p class="vs-text">VS</p>
-            <p>Placar Máquina<br><span class="computer-score">0</span></p>
+    <div id="result-modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <p id="modal-result-text" class="modal-text"></p>
         </div>
     </div>
 
