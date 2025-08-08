@@ -17,7 +17,7 @@ O objetivo é permitir que o usuário jogue contra o computador e receba o resul
 
 ## 📸 Capturas de Tela
 
-![preview-desktop](./assets/preview.png)
+![preview-desktop](./assets/preview.PNG)
 
 ---
 
