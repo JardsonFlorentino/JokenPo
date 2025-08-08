@@ -1,4 +1,4 @@
-##✊✋✌️ JokenPô – Pedra, Papel e Tesoura
+## ✊✋✌️ JokenPô – Pedra, Papel e Tesoura
 
 Este é um projeto simples, divertido e responsivo do clássico jogo Pedra, Papel e Tesoura, desenvolvido com HTML, CSS e JavaScript puro.
 
@@ -6,7 +6,7 @@ O objetivo é permitir que o usuário jogue contra o computador e receba o resul
 
 ---
 
-##🚀 Funcionalidades
+## 🚀 Funcionalidades
 - 🎮 Jogar contra o computador em tempo real.
 - 🏆 Mensagens e emojis diferentes para vitória, derrota e empate.
 - 📱 Layout totalmente responsivo.
@@ -15,13 +15,13 @@ O objetivo é permitir que o usuário jogue contra o computador e receba o resul
 
 ---
 
-##📸 Capturas de Tela
+## 📸 Capturas de Tela
 
 ![preview-desktop](./assets/preview.jpg)
 
 ---
 
-##🚀🛠️ Tecnologias Utilizadas
+## 🚀🛠️ Tecnologias Utilizadas
 
 - 💻 Visual Studio Code – Ambiente de desenvolvimento
 - 🌐 HTML5
@@ -30,7 +30,7 @@ O objetivo é permitir que o usuário jogue contra o computador e receba o resul
 
 ---
 
-##📦 Como usar
+## 📦 Como usar
 1. Clone o repositório:
    ```bash
    git clone https://github.com/JardsonFlorentino/JokenPo
@@ -38,7 +38,7 @@ Abra o arquivo index.html no seu navegador.
 
 ---
 
-##📁 Estrutura de Pastas
+## 📁 Estrutura de Pastas
 
 ```bash
 ├── index.html
@@ -49,7 +49,7 @@ Abra o arquivo index.html no seu navegador.
 │ └── icons, flags etc.
 ```
 
-##📌 Observações
+## 📌 Observações
 Este projeto foi desenvolvido com fins educacionais como parte do meu portfólio de estudos em desenvolvimento front-end no curso Full Stack do DevClub.
 
 ## 🙋‍♂️ Autor
